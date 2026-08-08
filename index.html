@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sivanathan Thamilalakan — BICT Undergraduate Portfolio</title>
+<meta name="description" content="Portfolio of Sivanathan Thamilalakan, BICT (Hons) undergraduate at the University of Vavuniya, Sri Lanka.">
+
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<canvas id="trailCanvas"></canvas>
+
+
+<header class="site-header">
+  <nav class="navbar">
+    <a href="#home" class="logo">S.THAMILALAKAN<span class="logo-dot">.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+
+<!-- =============== HOME / HERO =============== -->
+<section id="home" class="hero">
+  <div class="hero-inner">
+    <!-- <p class="eyebrow">// BICT (Hons) Undergraduate — University of Vavuniya</p> -->
+    <h1 class="hero-name">Hi!, I'm Sivanathan</h1>
+	<h1 class="hero-name">Thamilalakan</h1>
+    <p class="hero-role">
+      <span class="terminal-label">$</span>
+      <span id="typedRole" class="typed-text"></span><span class="typed-cursor">|</span>
+    </p>
+    
+    <p class="hero-intro">
+      A short introduction goes here. Write 2–3 sentences about who you are,
+      what areas of ICT interest you most (e.g. software development, data,
+      networking), and what kind of internship or role you're looking for.
+    </p>
+    <div class="hero-actions">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#cv" class="btn btn-outline" download>Download CV</a>
+    </div>
+  </div>  
+  <div class="hero-scroll-hint" aria-hidden="true">
+    <span>scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="section section-light">
+  <div class="section-inner">
+	<img src="New folder\profile.jpg" alt="Profile Photo" class="profile-photo">
+  </div>
+  <div class="section-inner">
+    <h2 class="section-title">Professional Summary</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          Write your professional summary here: your academic background,
+		  what you're good at, and the kind of impact you want to make.
+		  Keep it honest and specific rather than generic.
+        </p>
+
+        <p>
+          <strong>Interests:</strong> e.g. web development, machine learning,
+          cybersecurity, competitive programming — replace with your real 
+		  interests.
+        </p>
+
+        <p>
+          <strong>Career objective:</strong> Write one or two sentences on what
+          you want to achieve in the next few years (e.g. secure a software
+          engineering internship, build production-grade systems, etc.).
+        </p>
+      </div>
+      <div class="about-facts">
+        <div class="fact"><span class="fact-label">Degree</span><span class="fact-value">BICT (Hons)</span></div>
+        <div class="fact"><span class="fact-label">Year</span><span class="fact-value">2nd Year, 2nd Semester</span></div>
+        <div class="fact"><span class="fact-label">University</span><span class="fact-value">University of Vavuniya, Sri Lanka</span></div>
+        <div class="fact"><span class="fact-label">Based in</span><span class="fact-value">Sri Lanka</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section id="education" class="section section-dark">
+  <div class="section-inner">
+    <h2 class="section-title">Academic Background</h2>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3>BICT (Hons) — Bachelor of Information and Communication Technology</h3>
+          <p class="timeline-meta">University of Vavuniya, Sri Lanka · Currently in 2nd Year, 2nd Semester</p>
+          <p class="timeline-desc">
+            Relevant coursework: System Analysis &amp; Design, Data Structures &amp;
+            Algorithms, Database Management Systems, Web Technologies,
+            Object-Oriented Programming — edit this list to match your actual
+            modules.
+          </p>
+          <p class="timeline-desc">
+            Academic highlights: e.g. GPA, dean's list, notable coursework
+            projects, awards. Replace with real achievements or remove if none yet.
+          </p>
+        </div>
+      </div>
+	  
+	  <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <h3>Artificial Intelligence and Applications</h3>
+          <p class="timeline-meta">University of Jaffna, Sri Lanka · at 2026</p>
+          
+          <p class="timeline-desc">
+            Relevant coursework: Exploratoy Data Analysis, Computer Vision, Neural Networks & Deep Learning,Generative AI.
+          </p>
+
+
+          <p class="timeline-desc">
+            Languages highlights: Python.
+          </p>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+
+          <h3>G.C.E. Advanced Level</h3>
+          <p class="timeline-meta">Jaffna Central College· Year:2022</p>
+          <p class="timeline-desc">Engineering Technology</p>
+		  
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="section section-light">
+  <div class="section-inner">
+    <h2 class="section-title">Technical &amp; Soft Skills</h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3>Languages</h3>
+
+        <div class="chip-row">
+          <span class="chip">HTML5</span>
+          <span class="chip">CSS3</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">Java</span>
+          <span class="chip">Python</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Tools &amp; Platforms</h3>
+        <div class="chip-row">
+          <span class="chip">Git &amp; GitHub</span>
+          <span class="chip">VS Code</span>
+          <span class="chip">MySQL</span>
+          <span class="chip">Figma</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Concepts</h3>
+        <div class="chip-row">
+          <span class="chip">System Analysis &amp; Design</span>
+          <span class="chip">OOP</span>
+          <span class="chip">Data Structures</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3>Soft Skills</h3>
+        <div class="chip-row">
+          <span class="chip">Teamwork</span>
+          <span class="chip">Communication</span>
+          <span class="chip">Time Management</span>
+          <span class="chip">Problem Solving</span>
+        </div>
+      </div>
+    </div>
+    <p class="skills-note">EDIT: remove anything you can't confidently explain in an interview — honesty matters more than a long list.</p>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section section-dark">
+  <div class="section-inner">
+    <h2 class="section-title">Selected Work</h2>
+    <p class="section-subtitle">At least three projects — replace every field below with real details, screenshots and links.</p>
+
+    <div class="projects-grid">
+
+      <article class="project-card">
+        <div class="project-thumb">
+          <img src="assets/projects/project-1.jpg" alt="Screenshot of Project One" onerror="this.style.display='none'">
+          <span class="project-thumb-fallback">Add screenshot: assets/projects/project-1.jpg</span>
+        </div>
+        <div class="project-body">
+          <h3>Project One Title</h3>
+          <p class="project-problem"><strong>Problem:</strong> What problem did this project solve? EDIT.</p>
+          <p class="project-contribution"><strong>My contribution:</strong> What did you personally build/design? EDIT.</p>
+          <div class="chip-row">
+            <span class="chip chip-sm">Tool 1</span>
+            <span class="chip chip-sm">Tool 2</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener">Live Demo</a>
+            <a href="#" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-thumb">
+          <img src="assets/projects/project-2.jpg" alt="Screenshot of Project Two" onerror="this.style.display='none'">
+          <span class="project-thumb-fallback">Add screenshot: assets/projects/project-2.jpg</span>
+        </div>
+        <div class="project-body">
+          <h3>Project Two Title</h3>
+          <p class="project-problem"><strong>Problem:</strong> EDIT.</p>
+          <p class="project-contribution"><strong>My contribution:</strong> EDIT.</p>
+          <div class="chip-row">
+            <span class="chip chip-sm">Tool 1</span>
+            <span class="chip chip-sm">Tool 2</span>
+          </div>
+          <div class="project-links">
+            <a href="#" target="_blank" rel="noopener">Live Demo</a>
+            <a href="#" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-thumb">
+          <img src="assets/projects/project-3.jpg" alt="Screenshot of Project Three" onerror="this.style.display='none'">
+          <span class="project-thumb-fallback">Add screenshot: assets/projects/project-3.jpg</span>
+        </div>
+        <div class="project-body">
+          <h3>Project Three Title — this Portfolio</h3>
+          <p class="project-problem"><strong>Problem:</strong> Needed a professional, deployed personal portfolio to apply for internships, built as a System Analysis &amp; Design assignment.</p>
+          <p class="project-contribution"><strong>My contribution:</strong> Planned requirements, modelled use-case and activity diagrams, designed the site map and wireframes, and implemented, tested and deployed the site solo.</p>
+          <div class="chip-row">
+            <span class="chip chip-sm">HTML5</span>
+            <span class="chip chip-sm">CSS3</span>
+            <span class="chip chip-sm">JavaScript</span>
+          </div>
+          <div class="project-links">
+            <!-- EDIT: fill in once deployed -->
+            <a href="#" target="_blank" rel="noopener">Live Demo</a>
+            <a href="#" target="_blank" rel="noopener">GitHub</a>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE & ACTIVITIES ================= -->
+<section id="experience" class="section section-light">
+  <div class="section-inner">
+    <h2 class="section-title">Internships, Volunteering &amp; Achievements</h2>
+
+    <div class="exp-list">
+      <div class="exp-item">
+        <div class="exp-when">May 2026</div>
+        <div class="exp-what">
+          <h3>Admin</h3>
+          <p class="exp-org">AUTOMATION VERTEX</p>
+          <p>UI Path lerning, easy to make a Data Analysis.</p>
+        </div>
+      </div>
+      <!-- <div class="exp-item">
+        <div class="exp-when">EDIT: Month Year</div>
+        <div class="exp-what">
+          <h3>Competition / Leadership Role</h3>
+          <p class="exp-org">Organisation or Event Name</p>
+          <p>Describe what you did and the impact, in 1-2 sentences. EDIT.</p>
+        </div>
+      </div> -->
+      <!-- <div class="exp-item">
+        <div class="exp-when">EDIT: Month Year</div>
+        <div class="exp-what">
+          <h3>Volunteering</h3>
+          <p class="exp-org">Organisation Name</p>
+          <p>Describe what you did and the impact, in 1-2 sentences. EDIT.</p>
+        </div>
+      </div> -->
+    </div>
+    
+  </div>
+</section>
+
+<!-- ================= CV ================= -->
+<section id="cv" class="section section-dark">
+  <div class="section-inner section-inner-narrow">
+    <h2 class="section-title">Curriculum Vitae</h2>
+    <p class="section-subtitle">
+      View or download my most up-to-date CV in PDF format.
+
+    </p>
+    <div class="cv-box">
+      <div class="cv-icon">PDF</div>
+      <div class="cv-info">
+        <h3>Sivanathan_Thamilalakan_CV.pdf</h3>
+        <p>Last updated: <span id="cvDate">EDIT: date</span></p>
+      </div>
+      <div class="cv-actions">
+        <a href="assets/cv/Sivanathan_Thamilalakan_CV.pdf" class="btn btn-outline" target="_blank">View</a>
+        <a href="assets/cv/Sivanathan_Thamilalakan_CV.pdf" class="btn btn-primary" download>Download</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="section section-light" >
+  <div class="section-inner">
+
+    <h2 class="section-title">Contact &amp; Links</h2>
+    <div class="contact-grid" style="margin-top:40px;">
+      <div>
+        <p style="max-width:46ch;">
+          Open to internship and entry-level opportunities. The fastest way to reach me is by
+          email — feel free to also connect on LinkedIn or check my work on GitHub.
+        </p>
+        <ul class="contact-list">
+          <li><span class="k">Email</span><a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDXXxnFLFjLtMWkzsGrmfxGQQcnWkxZDWjjlfvWVdKBFsRslQDcXjklpgCsNRhBKvlQHfFC">thamilalakan2003@gmail.com</a></li>
+          <li><span class="k">LinkedIn</span><a href="https://www.linkedin.com/in/thamilalakan-s/" target="_blank" rel="noopener">linkedin.com/in/thamilalakan-s</a></li>
+          <li><span class="k">GitHub</span><a href="https://github.com/thamilalakan2003-max" target="_blank" rel="noopener">github.com/thamilalakan2003-max</a></li>
+          <li><span class="k">Location</span><a href="#" style="cursor:default;">Vavuniya, Sri Lanka</a></li>
+        </ul>
+      </div>
+      
+      <form class="contact-form" action="https://formspree.io/f/moeajlye" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit" class="btn btn-primary" style="margin-top:8px;">Send Message →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; <span id="year"></span> Sivanathan Thamilalakan. @//</p>
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/editor.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+# Serves index.html and friends as-is; functions are auto-mounted at
+# /.netlify/functions/<name> by Netlify, no extra redirect rules needed.
