@@ -79,17 +79,10 @@ only in Netlify's environment variables, never in your repo.
    - Push this repo to GitHub, then in Netlify: "Add new site → Import
      an existing project" and pick the repo. Netlify auto-detects
      `netlify.toml`.
-3. **Set environment variables** in Netlify: Site settings → Environment
-   variables → add:
-   ```
-   ALLOWED_PHONE        +94771234567         (your one number, E.164 format)
-   TWILIO_ACCOUNT_SID    ACxxxxxxxxxxxxxxxx
-   TWILIO_AUTH_TOKEN     your_auth_token
-   TWILIO_VERIFY_SID     VAxxxxxxxxxxxxxxxx
-   ```
-4. Open `js/editor.js` and set `GITHUB_OWNER` / `GITHUB_REPO` to your
+
+3. Open `js/editor.js` and set `GITHUB_OWNER` / `GITHUB_REPO` to your
    own (used only for the Save-to-GitHub step, unrelated to SMS).
-5. Redeploy. Click **Owner Login**, enter your number, and you should
+4. Redeploy. Click **Owner Login**, enter your number, and you should
    receive a real text.
 
 **What's genuinely secure here, and what isn't:**
